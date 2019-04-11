@@ -3035,14 +3035,9 @@ ts-jumper ol li.highlighted .channel_not_member, ts-jumper ol li.highlighted .me
 
 .c-tooltip__tip--success.c-tooltip__tip--left::after { border-left-color: #0cbf72; }
 
-.c-pillow_file__content--collapsed .c-pillow_file__snippet--collapsed {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
+.c-pillow_file__content--collapsed:after {
     background: linear-gradient(0deg,#5a5757,hsla(0,0%,100%,0) 40px);
+    background-image: linear-gradient(0deg, rgb(216, 52, 52), rgba(255, 255, 255, 0) 40px);
 }
 
 
