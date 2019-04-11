@@ -1321,7 +1321,7 @@ ts-mention { background: rgba(130, 130, 130, 0.1) !important; color: #e6e6e6 !im
 
 .delete_attachment_link:hover { color: #c7c7c7; }
 
-.file_container, .c-file_container { background: #38393f; border: 1px solid #2C3849; color: #e6e6e6; }
+.file_container, .c-file_container { background: #f44259; border: 1px solid #2C3849; color: #e6e6e6; }
 
 .file_container:hover, .file_container:focus, .file_container.file_menu_open, .c-file_container:hover, .c-file_container:focus, .c-file_container.file_menu_open { border-bottom-color: #2C3849; border-left-color: #2C3849; border-right-color: #2C3849; }
 
